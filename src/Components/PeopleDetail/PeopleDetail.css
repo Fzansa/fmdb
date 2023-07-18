@@ -1,0 +1,31 @@
+.bio_main {
+    width: 100%;
+    height: 95vh;
+    background:white;
+    position: relative;
+  }
+
+.bio_text_container{
+    flex-basis: 70%;
+    padding: 10px;
+}
+
+.bio_heading > h1{
+    font-size: 50px;
+}
+
+.biography{
+    margin: 20px auto;
+}
+
+@media (max-width: 600px) {
+
+    .biography{
+        margin: 20px auto;
+    }
+    .bio_heading > h1{
+        font-size: 30px;
+    }
+
+}
+  

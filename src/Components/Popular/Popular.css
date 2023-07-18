@@ -1,0 +1,46 @@
+.popular_container {
+  width: 100%;
+  padding: 10px 50px;
+}
+.popular_heading_container {
+  display: flex;
+  /* align-items: center; */
+  margin: 20px auto;
+}
+.popular_button_container {
+  background: white;
+  border: 1.2px solid black;
+  margin: auto 2rem;
+  border-radius: 18px;
+}
+.popular_button_container button {
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 0 25px;
+  border-radius: 18px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 918px) {
+  .popular_container {
+    padding: 10px 0px 10px 25px;
+  }
+  .heading_container {
+    width: 100%;
+    overflow: auto;
+  }
+  .popular_button_container {
+    margin: 0.4rem 0rem;
+    text-align: center;
+  }
+  .popular_button_container button {
+    width: 33.3%;
+    padding: 2px;
+  }
+
+  .popular_heading_container {
+    display: flex;
+    flex-direction: column;
+  }
+}

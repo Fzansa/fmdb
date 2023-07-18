@@ -1,0 +1,38 @@
+.cast_container {
+  width: 100%;
+  padding: 10px 50px;
+}
+
+.cast_card_container {
+  display: flex;
+  overflow-x: auto;
+  scrollbar-width: none; /*Firefox */
+  -ms-overflow-style: none; /*Internet Explorer 10+ */
+}
+
+.cast_card_container::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Opera */
+  }
+
+.cast_card {
+  flex: 0 0 150px; /* Set a fixed width for each card */
+  margin-right: 20px; /* Add some margin between cards */
+  cursor: pointer;
+  /* background: #000; */
+}
+
+/* .name_container > h2{
+    font-size: 16px;
+    font-weight: 900;
+    padding: 10px 2px;
+} */
+
+
+@media screen and (max-width: 700px) {
+    .cast_container {
+      padding: 10px 0px 10px 25px;
+    }
+  
+   
+  }
